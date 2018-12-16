@@ -13,7 +13,7 @@ def gendif( img_dir, output_gif_path ):
         else:
             break;
         index += 1;
-    imageio.mimsave( output_gif_path, images, duration = 1 );
+    imageio.mimsave( output_gif_path, images, duration = 0.5 );
     
         
 
